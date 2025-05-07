@@ -1,15 +1,21 @@
-import { redirect } from 'next/navigation';
-import { hasLocale } from 'next-intl';
+import dynamic from 'next/dynamic';
 
-import { routing } from '@/i18n/routing';
+import ClientSideSections from '@/components/HomeSections/ClientSideSections/ClientSideSections';
+const About = dynamic(() => import('@/components/HomeSections/About'));
+const MainProjects = dynamic(() => import('@/components/HomeSections/MainProjects'));
 
-import nextIntlConfig from '../../next-intl.config';
+const Portfolio = () => {
+  return (
+    <>
+      <div id="about-section">
+        <About />
+      </div>
+      <div id="main-projects-section">
+        <MainProjects />
+      </div>
+      <ClientSideSections />
+    </>
+  );
+};
 
-export default async function InitialPage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  let newLocale = nextIntlConfig.defaultLocale;
-  if (hasLocale(routing.locales, locale)) {
-    newLocale = locale;
-  }
-  redirect(`${newLocale}/`);
-}
+export default Portfolio;

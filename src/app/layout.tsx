@@ -4,11 +4,11 @@ import React from 'react';
 import Footer from '@/components/Shared/PageStructure/Footer';
 import Header from '@/components/Shared/PageStructure/Header';
 import './globals.scss';
-import { getLanguageFromHeaders, getThemeFromHeaders } from '@/utils/handleHeaders';
+import { getLanguageFromCookies, getThemeFromCookies } from '@/utils/handleCookies';
 
 export default async function LocaleLayout({ children }: { children: React.ReactNode }) {
-  const theme = await getThemeFromHeaders();
-  const locale = await getLanguageFromHeaders();
+  const theme = await getThemeFromCookies();
+  const locale = await getLanguageFromCookies();
 
   return (
     <html lang={locale} data-theme={theme} className={theme}>

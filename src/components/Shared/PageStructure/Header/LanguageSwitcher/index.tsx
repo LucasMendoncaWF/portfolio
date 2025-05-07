@@ -1,21 +1,13 @@
 'use client';
 
 import Image from 'next/image';
-import { usePathname, useRouter } from 'next/navigation';
-import { useLocale } from 'next-intl';
 
 import nextIntlConfig from '../../../../../../next-intl.config';
 
 export default function LanguageSwitcher() {
-  const router = useRouter();
-  const pathname = usePathname();
-  const currentLocale = useLocale();
-
   function onClick(value: string) {
-    const newPath = pathname.replace(`/${currentLocale}`, `/${value}`);
     document.cookie = `NEXT_LOCALE=${value}; path=/; max-age=31536000; SameSite=Lax; Secure`;
-    router.push(newPath);
-    window.location.href = newPath;
+    location.reload();
   }
 
   return (
