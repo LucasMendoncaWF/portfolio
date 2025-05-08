@@ -313,7 +313,7 @@ export const intranetProjects: Project[] = [
     id: 1,
     technology: 'Sharepoint',
     year: 2018,
-    image: '/images/intranet-tallento.webp',
+    image: '/images/intranet-tallento.jpg',
     translations: {
       pt: {
         name: 'Tallento',
@@ -329,7 +329,7 @@ export const intranetProjects: Project[] = [
     id: 2,
     technology: 'Sharepoint',
     year: 2018,
-    image: '/images/intranet-nexa.webp',
+    image: '/images/intranet-nexa.jpg',
     translations: {
       pt: {
         name: 'Nexa',
@@ -345,7 +345,7 @@ export const intranetProjects: Project[] = [
     id: 3,
     technology: 'Sharepoint',
     year: 2018,
-    image: '/images/intranet-hersheys.webp',
+    image: '/images/intranet-hersheys.jpg',
     translations: {
       pt: {
         name: "Hershey's",
@@ -361,7 +361,7 @@ export const intranetProjects: Project[] = [
     id: 4,
     technology: 'React',
     year: 2019,
-    image: '/images/intranet-newton.webp',
+    image: '/images/intranet-newton.jpg',
     translations: {
       pt: {
         name: 'Newton',
@@ -377,7 +377,7 @@ export const intranetProjects: Project[] = [
     id: 5,
     technology: 'Sharepoint',
     year: 2017,
-    image: '/images/intranet-class.webp',
+    image: '/images/intranet-class.jpg',
     translations: {
       pt: {
         name: 'Class Solutions',

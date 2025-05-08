@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
 
-const ProjectList = dynamic(() => import('./List/ProjectList'), { ssr: false });
+const ProjectList = dynamic(() => import('./List/ProjectList'));
 
 export default function MainProjects() {
   const t = useTranslations();
