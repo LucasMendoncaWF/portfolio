@@ -15,7 +15,7 @@ export default function ExperienceItem({ title, startDate, endDate, children }: 
         <span className="px-2 text-[10px] py-1 bg-tertiary">
           {startDate} {endDate ? `- ${endDate}` : ''}
         </span>
-        <div className="w-4 h-4 bg-tertiary rounded-full absolute top-[18%] left-[-30px]"></div>
+        <div className="w-4 h-4 bg-tertiary rounded-full absolute top-[6px] left-[-30px]"></div>
       </div>
       <div className="text-xs leading-[22px] opacity-90 tracking-[2px]">{children}</div>
     </div>
