@@ -10,6 +10,7 @@ export interface Project {
   image: string;
   id: number;
   translations: Record<string, Translation>;
+  priority?: number;
 }
 
 export const devProjects: Project[] = [
@@ -17,6 +18,7 @@ export const devProjects: Project[] = [
     id: 1,
     technology: 'React',
     year: 2025,
+    priority: 1,
     url: 'https://vimeo.com/1074964819/672ee796f2',
     image: '/images/project-anytime.webp',
     translations: {
@@ -267,6 +269,26 @@ export const devProjects: Project[] = [
       },
     },
   },
+  {
+    id: 15,
+    technology: 'NextJS',
+    year: 2025,
+    priority: 3,
+    url: 'https://lucasmediaplayer.netlify.app/',
+    image: '/images/mp5.webp',
+    translations: {
+      en: {
+        name: 'Music Player',
+        description:
+          'A minimalist music streaming platform inspired by Spotify, using the Audius API, built fully with NexJS, Typescript and Tailwind CSS.',
+      },
+      pt: {
+        name: 'Music Player',
+        description:
+          'Uma plataforma minimalista de streaming de música inspirada no Spotify, usando a API do Audius. [Next.js, Typescript e Tailwind CSS].',
+      },
+    },
+  },
 ];
 
 export const designProjects: Project[] = [
@@ -292,6 +314,7 @@ export const designProjects: Project[] = [
     id: 2,
     technology: 'Photoshop',
     year: 2022,
+    priority: 2,
     url: 'https://www.behance.net/gallery/135246757/Nintendo-redesign',
     image: '/images/project-nintendo.webp',
     translations: {

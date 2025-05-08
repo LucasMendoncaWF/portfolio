@@ -23,9 +23,13 @@ exports.handler = async function (event: HandlerEvent) {
 
   switch (slug) {
     case 'main':
-      const devSortedProjects = devProjects.sort(
-        (projectA, projectB) => projectB.year - projectA.year,
-      );
+      const devSortedProjects = devProjects.sort((projectA, projectB) => {
+        if (projectB.year !== projectA.year) {
+          return projectB.year - projectA.year;
+        }
+
+        return (projectB.priority ?? 0) - (projectA.priority ?? 0);
+      });
       return {
         statusCode: 200,
         headers: {
