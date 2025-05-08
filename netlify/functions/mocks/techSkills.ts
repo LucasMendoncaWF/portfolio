@@ -25,11 +25,9 @@ export const frameworks: Skills[] = [
 ];
 
 export const testingTools: Skills[] = [
-  { name: 'Jest', level: 4 },
-  { name: 'Unit testing', level: 4 },
-  { name: 'E2E testing', level: 4 },
+  { name: 'Jest', level: 5 },
   { name: 'Cypress', level: 4 },
-  { name: 'Playwright', level: 4 },
+  { name: 'Playwright', level: 5 },
 ];
 
 export const otherTools: Skills[] = [
@@ -38,7 +36,7 @@ export const otherTools: Skills[] = [
   { name: 'Webpack', level: 5 },
   { name: 'ESLint', level: 5 },
   { name: 'CI/CD', level: 5 },
-  { name: 'AWS', level: 3 },
+  { name: 'AWS', level: 4 },
   { name: 'SPA', level: 4 },
-  { name: 'Analytics', level: 3 },
+  { name: 'Analytics', level: 4 },
 ];

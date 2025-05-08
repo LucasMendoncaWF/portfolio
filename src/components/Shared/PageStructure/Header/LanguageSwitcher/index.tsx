@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import nextIntlConfig from '../../../../../../next-intl.config';
+import nextIntlConfig from '@/../next-intl.config';
 
 export default function LanguageSwitcher() {
   function onClick(value: string) {

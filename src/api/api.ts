@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import nextIntlConfig from '../../next-intl.config';
+import nextIntlConfig from '@/../next-intl.config';
 
 const api = axios.create({
   baseURL: '/.netlify/functions/',
