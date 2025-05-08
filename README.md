@@ -9,6 +9,6 @@ Welcome to my professional portfolio, built with [Next.js](https://nextjs.org/).
 
 - [Next.js](https://nextjs.org/)
 - React
-- Sass (or CSS Modules, if applicable)
+- Scss
 - TypeScript
 - Netlify for deployment
