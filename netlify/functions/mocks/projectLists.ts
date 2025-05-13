@@ -18,7 +18,7 @@ export const devProjects: Project[] = [
     id: 1,
     technology: 'React',
     year: 2025,
-    priority: 1,
+    priority: 5,
     url: 'https://vimeo.com/1074964819/672ee796f2',
     image: '/images/project-anytime.webp',
     translations: {
@@ -38,6 +38,7 @@ export const devProjects: Project[] = [
     id: 2,
     technology: 'React and NodeJS',
     year: 2025,
+    priority: 4,
     url: 'https://nintendostorebylucasmendonca.netlify.app/',
     image: '/images/project-nintendo.webp',
     translations: {
@@ -273,19 +274,37 @@ export const devProjects: Project[] = [
     id: 15,
     technology: 'NextJS',
     year: 2025,
-    priority: 3,
+    priority: 6,
     url: 'https://lucasmediaplayer.netlify.app/',
     image: '/images/mp5.webp',
     translations: {
       en: {
         name: 'Music Player',
         description:
-          'A minimalist music streaming platform inspired by Spotify, using the Audius API, built fully with NexJS, Typescript and Tailwind CSS.',
+          'A music streaming platform inspired by Spotify, using the Audius API, built fully with NexJS, Typescript and Tailwind CSS.',
       },
       pt: {
         name: 'Music Player',
         description:
-          'Uma plataforma minimalista de streaming de música inspirada no Spotify, usando a API do Audius. [Next.js, Typescript e Tailwind CSS].',
+          'Uma plataforma de streaming de música inspirada no Spotify, usando a API do Audius. [Next.js, Typescript e Tailwind CSS].',
+      },
+    },
+  },
+  {
+    id: 16,
+    technology: 'React',
+    year: 2025,
+    priority: 7,
+    url: 'https://mini-figma.netlify.app/',
+    image: '/images/miniFigma.webp',
+    translations: {
+      en: {
+        name: 'Mini Figma',
+        description: 'A simple reacreation of Figma, using React and Zustand.',
+      },
+      pt: {
+        name: 'Mini Figma',
+        description: 'Uma recriação simples do Figma, usando React e Zustand',
       },
     },
   },
