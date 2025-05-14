@@ -32,11 +32,13 @@ export const testingTools: Skills[] = [
 
 export const otherTools: Skills[] = [
   { name: 'Git', level: 5 },
-  { name: 'Vite', level: 4 },
   { name: 'Webpack', level: 5 },
   { name: 'ESLint', level: 5 },
   { name: 'CI/CD', level: 5 },
+  { name: 'GPT 4', level: 5 },
+  { name: 'Github Copilot', level: 5 },
   { name: 'AWS', level: 4 },
   { name: 'SPA', level: 4 },
+  { name: 'Vite', level: 4 },
   { name: 'Analytics', level: 4 },
 ];

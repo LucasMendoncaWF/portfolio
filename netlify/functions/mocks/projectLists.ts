@@ -300,11 +300,13 @@ export const devProjects: Project[] = [
     translations: {
       en: {
         name: 'Mini Figma',
-        description: 'A simple reacreation of Figma, using React and Zustand.',
+        description:
+          'A simple recreation of Figma, using React, Zustand and GPT 4 for complex calculations (built in 2 days).',
       },
       pt: {
         name: 'Mini Figma',
-        description: 'Uma recriação simples do Figma, usando React e Zustand',
+        description:
+          'Uma recriação simples do Figma, usando React, Zustand e GPT 4 para cálculos complexos (Desenvolvido em 2 dias)',
       },
     },
   },
