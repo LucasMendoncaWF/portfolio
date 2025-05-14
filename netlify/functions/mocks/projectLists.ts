@@ -292,7 +292,7 @@ export const devProjects: Project[] = [
   },
   {
     id: 16,
-    technology: 'React',
+    technology: 'React and GPT 4',
     year: 2025,
     priority: 7,
     url: 'https://mini-figma.netlify.app/',
