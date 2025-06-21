@@ -219,7 +219,7 @@ export const devProjects: Project[] = [
   {
     id: 12,
     technology: 'Angular 7',
-    year: 2019,
+    year: 2020,
     url: 'https://www.bv.com.br/seguro',
     image: '/images/project-bv.webp',
     translations: {
