@@ -15,7 +15,9 @@ export default function Project({ project }: { project: ProjectModel }) {
             <div className="w-2 h-2 bg-quaternary border-quaternary border-1 rounded-full"></div>
             <div className="w-2 h-2 bg-quaternary border-quaternary border-1 rounded-full"></div>
           </div>
-          <div className="text-textColor px-2 py-1 text-[10px]">{project.year}</div>
+          <div className="text-textColor px-2 py-1 text-[10px]">
+            {project.isCurrent ? t('current') : project.year}
+          </div>
         </div>
         <Image className="w-full" width="320" height="150" src={project.image} alt={project.name} />
         <div className="p-4 text-textColor border-t-4 border-borderColor">

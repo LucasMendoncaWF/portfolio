@@ -17,7 +17,7 @@ export default function ContactForm() {
   const { error, loading, onMutate, response } = usePostContact();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    setForm((state) => ({ ...state, [e.target.id]: e.target.value }));
   };
 
   const onSuccess = () => {

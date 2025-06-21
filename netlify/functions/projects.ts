@@ -1,7 +1,11 @@
 import type { HandlerEvent } from '@netlify/functions';
 
 import type { Project } from './mocks/projectLists';
-import { designProjects, devProjects, intranetProjects } from './mocks/projectLists';
+import { designProjects, devProjects, intranetProjects, studyProjects } from './mocks/projectLists';
+
+const sortByDate = (projects: Project[]) => {
+  return [...projects].sort((projectA, projectB) => projectB.year - projectA.year);
+};
 
 exports.handler = async function (event: HandlerEvent) {
   const path = event.path;
@@ -23,19 +27,22 @@ exports.handler = async function (event: HandlerEvent) {
 
   switch (slug) {
     case 'main':
-      const devSortedProjects = devProjects.sort((projectA, projectB) => {
-        if (projectB.year !== projectA.year) {
-          return projectB.year - projectA.year;
-        }
-
-        return (projectB.priority ?? 0) - (projectA.priority ?? 0);
-      });
+      const devSortedProjects = sortByDate(devProjects);
       return {
         statusCode: 200,
         headers: {
           'Content-Type': 'application/json',
         },
         body: convertToCorrectLanguage(devSortedProjects),
+      };
+    case 'study':
+      const studySortedProjects = sortByDate(studyProjects);
+      return {
+        statusCode: 200,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: convertToCorrectLanguage(studySortedProjects),
       };
     case 'design':
       const designSortedProjects = designProjects.sort(

@@ -10,7 +10,7 @@ export interface Project {
   image: string;
   id: number;
   translations: Record<string, Translation>;
-  priority?: number;
+  isCurrent?: boolean;
 }
 
 export const devProjects: Project[] = [
@@ -18,7 +18,7 @@ export const devProjects: Project[] = [
     id: 1,
     technology: 'React',
     year: 2025,
-    priority: 5,
+    isCurrent: true,
     url: 'https://vimeo.com/1074964819/672ee796f2',
     image: '/images/project-anytime.webp',
     translations: {
@@ -36,59 +36,23 @@ export const devProjects: Project[] = [
   },
   {
     id: 2,
-    technology: 'React and NodeJS',
-    year: 2025,
-    priority: 4,
-    url: 'https://nintendostorebylucasmendonca.netlify.app/',
-    image: '/images/project-nintendo.webp',
+    technology: 'WordPress',
+    year: 2023,
+    url: 'https://barmethod.com/',
+    image: '/images/project-barmethod.webp',
     translations: {
       en: {
-        name: 'Nintendo Demo',
-        description: 'E-commerce demo for my portfolio, developed with React and NodeJS.',
+        name: 'BarMethod',
+        description: 'Did the maintenance, fixed bugs, adjusted content and developed features.',
       },
       pt: {
-        name: 'Nintendo Demo',
-        description: 'Demonstração para o portfólio, desenvolvida com React e NodeJS.',
+        name: 'BarMethod',
+        description: 'Fiz a manutenção, corrigi bugs, ajustei conteudo e desenvolvi features.',
       },
     },
   },
   {
     id: 3,
-    technology: 'React',
-    year: 2019,
-    url: 'https://eixo-lp.netlify.app/',
-    image: '/images/project-eixo.webp',
-    translations: {
-      en: {
-        name: 'Landing Page Eixo Platina',
-        description: 'Developed a Landing page for a real estate launch in React.',
-      },
-      pt: {
-        name: 'Landing Page Eixo Platina',
-        description: 'Landing page para lançamento imobiliário em React.',
-      },
-    },
-  },
-  {
-    id: 4,
-    technology: 'AngularJS',
-    year: 2018,
-    url: 'https://taskdashboardlucas.netlify.app/',
-    image: '/images/dashboard.webp',
-    translations: {
-      en: {
-        name: 'DashBoard Demo',
-        description: 'Task dashboard demo for portfolio, developed using AngularJS.',
-      },
-      pt: {
-        name: 'DashBoard Demo',
-        description:
-          'Demonstração de painel de tarefas para o portfólio, desenvolvido com AngularJS.',
-      },
-    },
-  },
-  {
-    id: 5,
     technology: 'Angular 9',
     year: 2021,
     url: 'https://sampamaisrural.prefeitura.sp.gov.br/',
@@ -107,7 +71,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 6,
+    id: 4,
     technology: 'Angular 7',
     year: 2020,
     url: 'https://napista.com.br/',
@@ -126,7 +90,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 7,
+    id: 5,
     technology: 'React And NestJS',
     year: 2022,
     url: 'https://vimeo.com/778621074',
@@ -145,7 +109,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 8,
+    id: 6,
     technology: 'Wordpress',
     year: 2019,
     url: 'https://www.omint.com.br/en/',
@@ -164,7 +128,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 9,
+    id: 7,
     technology: 'Shopify',
     year: 2021,
     url: 'https://luvieh.com/',
@@ -181,7 +145,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 10,
+    id: 8,
     technology: 'React',
     year: 2022,
     url: 'https://diariodoclima.jurema.la/',
@@ -200,7 +164,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 11,
+    id: 9,
     technology: 'Angular',
     year: 2022,
     url: 'https://queridodiario.jurema.la/',
@@ -217,7 +181,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 12,
+    id: 10,
     technology: 'React',
     year: 2022,
     url: 'https://jurema.la/',
@@ -235,7 +199,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 13,
+    id: 11,
     technology: 'WordPress',
     year: 2019,
     url: 'https://emccamp.com.br/',
@@ -253,7 +217,7 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 14,
+    id: 12,
     technology: 'Angular 7',
     year: 2019,
     url: 'https://www.bv.com.br/seguro',
@@ -270,11 +234,32 @@ export const devProjects: Project[] = [
       },
     },
   },
+];
+
+export const studyProjects: Project[] = [
   {
-    id: 15,
+    id: 1,
+    technology: 'React and GPT 4',
+    year: 2025,
+    url: 'https://mini-figma.netlify.app/',
+    image: '/images/miniFigma.webp',
+    translations: {
+      en: {
+        name: 'Mini Figma',
+        description:
+          'A simple recreation of Figma, using React, Zustand and GPT 4 for complex calculations (built in 2 days).',
+      },
+      pt: {
+        name: 'Mini Figma',
+        description:
+          'Uma recriação simples do Figma, usando React, Zustand e GPT 4 para cálculos complexos (Desenvolvido em 2 dias)',
+      },
+    },
+  },
+  {
+    id: 2,
     technology: 'NextJS',
     year: 2025,
-    priority: 6,
     url: 'https://lucasmediaplayer.netlify.app/',
     image: '/images/mp5.webp',
     translations: {
@@ -291,22 +276,54 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 16,
-    technology: 'React and GPT 4',
+    id: 3,
+    technology: 'React and NodeJS',
     year: 2025,
-    priority: 7,
-    url: 'https://mini-figma.netlify.app/',
-    image: '/images/miniFigma.webp',
+    url: 'https://nintendostorebylucasmendonca.netlify.app/',
+    image: '/images/project-nintendo.webp',
     translations: {
       en: {
-        name: 'Mini Figma',
-        description:
-          'A simple recreation of Figma, using React, Zustand and GPT 4 for complex calculations (built in 2 days).',
+        name: 'Nintendo Demo',
+        description: 'E-commerce demo for my portfolio, developed with React and NodeJS.',
       },
       pt: {
-        name: 'Mini Figma',
+        name: 'Nintendo Demo',
+        description: 'Demonstração para o portfólio, desenvolvida com React e NodeJS.',
+      },
+    },
+  },
+  {
+    id: 4,
+    technology: 'React',
+    year: 2019,
+    url: 'https://eixo-lp.netlify.app/',
+    image: '/images/project-eixo.webp',
+    translations: {
+      en: {
+        name: 'Landing Page Eixo Platina',
+        description: 'Developed a Landing page for a real estate launch in React.',
+      },
+      pt: {
+        name: 'Landing Page Eixo Platina',
+        description: 'Landing page para lançamento imobiliário em React.',
+      },
+    },
+  },
+  {
+    id: 5,
+    technology: 'AngularJS',
+    year: 2018,
+    url: 'https://taskdashboardlucas.netlify.app/',
+    image: '/images/dashboard.webp',
+    translations: {
+      en: {
+        name: 'DashBoard Demo',
+        description: 'Task dashboard demo for portfolio, developed using AngularJS.',
+      },
+      pt: {
+        name: 'DashBoard Demo',
         description:
-          'Uma recriação simples do Figma, usando React, Zustand e GPT 4 para cálculos complexos (Desenvolvido em 2 dias)',
+          'Demonstração de painel de tarefas para o portfólio, desenvolvido com AngularJS.',
       },
     },
   },
@@ -335,7 +352,6 @@ export const designProjects: Project[] = [
     id: 2,
     technology: 'Photoshop',
     year: 2022,
-    priority: 2,
     url: 'https://www.behance.net/gallery/135246757/Nintendo-redesign',
     image: '/images/project-nintendo.webp',
     translations: {
@@ -356,7 +372,7 @@ export const intranetProjects: Project[] = [
   {
     id: 1,
     technology: 'Sharepoint',
-    year: 2018,
+    year: 2017,
     image: '/images/intranet-tallento.jpg',
     translations: {
       pt: {

@@ -5,6 +5,8 @@
   "contact": "Contato",
   "location": "São Paulo, Brasil",
   "projects": "Projetos",
+  "studyProjects": "Projetos de estudo",
+  "mainProjects": "Projetos Profissionais",
   "softSkills": "Habilidades Interpessoais",
   "softSkillsDescription": "Eu me comunico de forma clara, mesmo quando trabalho remotamente. Gosto muito de orientar desenvolvedores juniores e ajudar meus colegas. Estou sempre aberto a feedbacks e aprendendo coisas novas. Sou organizado e sempre entrego antes dos prazos. Também sou rápido em identificar e resolver problemas, sempre buscando as melhores soluções para cada caso.",
   "errorProjects": "Ocorreu um erro ao tentar buscar os projetos",
@@ -27,5 +29,6 @@
   "formSubject": "Assunto",
   "formMessage": "Mensagem",
   "contactError": "Um erro ocorreu ao enviar a mensagem, por favor, tente novamente.",
-  "contactSuccess": "Mensagem enviada! Vou te responder em breve."
+  "contactSuccess": "Mensagem enviada! Vou te responder em breve.",
+  "current": "Atual"
 }

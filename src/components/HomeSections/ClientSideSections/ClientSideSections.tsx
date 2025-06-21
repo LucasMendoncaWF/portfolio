@@ -6,12 +6,24 @@ const Designs = dynamic(() => import('@/components/HomeSections/Designs'), { ssr
 const Experience = dynamic(() => import('@/components/HomeSections/Experience'), { ssr: false });
 const Intranets = dynamic(() => import('@/components/HomeSections/Intranets'), { ssr: false });
 const Skills = dynamic(() => import('@/components/HomeSections/Skills'), { ssr: false });
+const MainProjects = dynamic(() => import('@/components/HomeSections/MainProjects'), {
+  ssr: false,
+});
+const StudyProjects = dynamic(() => import('@/components/HomeSections/StudyProjects'), {
+  ssr: false,
+});
 
 export default function ClientSideSections() {
   return (
     <>
+      <div id="main-projects-section">
+        <MainProjects />
+      </div>
       <div id="intranets-section">
         <Intranets />
+      </div>
+      <div id="study-projects-section">
+        <StudyProjects />
       </div>
       <div id="skills-section">
         <Skills />

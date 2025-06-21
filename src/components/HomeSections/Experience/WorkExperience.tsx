@@ -25,13 +25,7 @@ export default function WorkExperience() {
             endDate={experience.endDate}
             title={`${experience.company} | (${experience.location}) | ${experience.title}`}
           >
-            <ul>
-              {experience.responsibilities.map((responsibility, index) => (
-                <li className="mb-1" key={index}>
-                  ● {responsibility}
-                </li>
-              ))}
-            </ul>
+            <p>{experience.responsibilities}</p>
           </ExperienceItem>
         ))}
       </div>
