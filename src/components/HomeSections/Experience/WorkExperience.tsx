@@ -23,7 +23,7 @@ export default function WorkExperience() {
             key={experience.id}
             startDate={experience.startDate}
             endDate={experience.endDate}
-            title={`${experience.company} | (${experience.location}) | ${experience.title}`}
+            title={`${experience.company} | ${experience.location} | ${experience.title}`}
           >
             <p>{experience.responsibilities}</p>
           </ExperienceItem>
