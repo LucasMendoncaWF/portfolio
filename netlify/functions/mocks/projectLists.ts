@@ -148,7 +148,7 @@ export const devProjects: Project[] = [
     id: 8,
     technology: 'React',
     year: 2022,
-    url: 'https://diariodoclima.jurema.la/',
+    url: 'https://diariosdoclima.org.br/',
     image: '/images/project-clima.webp',
     translations: {
       en: {
@@ -167,7 +167,7 @@ export const devProjects: Project[] = [
     id: 9,
     technology: 'Angular',
     year: 2022,
-    url: 'https://queridodiario.jurema.la/',
+    url: 'https://queridodiario.ok.org.br/',
     image: '/images/project-diario.webp',
     translations: {
       en: {
