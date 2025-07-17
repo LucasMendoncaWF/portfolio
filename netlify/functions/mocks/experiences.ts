@@ -21,7 +21,7 @@ export const experiences: WorkExperience[] = [
         company: 'Alto',
         location: 'Remote - USA',
         startDate: 'Jan 2023',
-        endDate: 'Present',
+        endDate: 'Jul 2017',
         responsibilities:
           'I built the Coaching Dashboard for Anytime Fitness (SaaS) using React with TypeScript, developed reusable custom components adopted across the website, delivered new features weekly, solved all bugs assigned to me quickly and maintained the “Bar Method” website built on WordPress.',
       },
@@ -30,7 +30,7 @@ export const experiences: WorkExperience[] = [
         company: 'Alto',
         location: 'Remoto - EUA',
         startDate: 'Jan 2023',
-        endDate: 'Presente',
+        endDate: 'Jul 2017',
         responsibilities:
           'Criei o Painel de Coaching para Anytime Fitness (SaaS) usando React com TypeScript, desenvolvi componentes personalizados reutilizáveis ​​adotados em todo o site, entreguei novos recursos semanalmente, resolvi todos os bugs atribuídos a mim rapidamente e mantive o site “Bar Method” criado no WordPress.',
       },

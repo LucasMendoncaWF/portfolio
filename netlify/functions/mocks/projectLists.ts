@@ -225,7 +225,7 @@ export const devProjects: Project[] = [
     translations: {
       en: {
         name: 'Banco BV',
-        description: 'Developed pages to present the products for a Health Insurance Company.',
+        description: 'Developed pages to show the products for a Health Insurance Company.',
       },
       pt: {
         name: 'Banco BV',
