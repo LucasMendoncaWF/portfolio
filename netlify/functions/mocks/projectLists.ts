@@ -17,8 +17,26 @@ export const devProjects: Project[] = [
   {
     id: 1,
     technology: 'React',
-    year: 2025,
+    year: 2026,
     isCurrent: true,
+    image: '/images/satalia.webp',
+    translations: {
+      en: {
+        name: 'Satalia',
+        description:
+          'Developed new features, turned a list of 50 bugs (that accumulated since 2021) to 0, maintained and refacturated the code',
+      },
+      pt: {
+        name: 'Satalia',
+        description:
+          'Desenvolvi novas funcionalidades e fiz a manutenção, reduzi uma lista de bugs que se acumulou desde 2021 de um total de 50, para 0. Realizei refatoração de codigo e melhorias.',
+      },
+    },
+  },
+  {
+    id: 1,
+    technology: 'React',
+    year: 2025,
     url: 'https://vimeo.com/1074964819/672ee796f2',
     image: '/images/project-anytime.webp',
     translations: {
