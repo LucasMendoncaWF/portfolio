@@ -15,7 +15,7 @@ export default function Description() {
         {t('description')}
       </div>
       <div className="flex gap-2 pt-1 flex-wrap">
-        {['React', 'Next.js', 'VueJS', 'Angular', 'TypeScript', 'Node.js', 'Scss'].map(
+        {['React', 'Next.js', 'React Native', 'Angular', 'TypeScript', 'Node.js', 'Scss'].map(
           (tagName, index) => (
             <TechTag hasAnimation index={index} key={index}>
               {tagName}
