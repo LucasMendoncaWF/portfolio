@@ -13,9 +13,8 @@ export interface Project {
   isCurrent?: boolean;
 }
 
-export const devProjects: Project[] = [
+export const devProjectsWithouIds = [
   {
-    id: 1,
     technology: 'React',
     year: 2026,
     isCurrent: true,
@@ -34,7 +33,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 1,
     technology: 'React',
     year: 2025,
     url: 'https://vimeo.com/1074964819/672ee796f2',
@@ -53,7 +51,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 2,
     technology: 'WordPress',
     year: 2023,
     url: 'https://barmethod.com/',
@@ -70,7 +67,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 3,
     technology: 'Angular 9',
     year: 2021,
     url: 'https://sampamaisrural.prefeitura.sp.gov.br/',
@@ -89,7 +85,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 4,
     technology: 'Angular 7',
     year: 2020,
     url: 'https://napista.com.br/',
@@ -108,7 +103,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 5,
     technology: 'React And NestJS',
     year: 2022,
     url: 'https://vimeo.com/778621074',
@@ -127,7 +121,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 6,
     technology: 'Wordpress',
     year: 2019,
     url: 'https://www.omint.com.br/en/',
@@ -146,7 +139,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 7,
     technology: 'Shopify',
     year: 2021,
     url: 'https://luvieh.com/',
@@ -163,7 +155,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 8,
     technology: 'React',
     year: 2022,
     url: 'https://diariosdoclima.org.br/',
@@ -182,7 +173,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 9,
     technology: 'Angular',
     year: 2022,
     url: 'https://queridodiario.ok.org.br/',
@@ -199,7 +189,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 10,
     technology: 'React',
     year: 2022,
     url: 'https://jurema.la/',
@@ -217,7 +206,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 11,
     technology: 'WordPress',
     year: 2019,
     url: 'https://emccamp.com.br/',
@@ -235,7 +223,6 @@ export const devProjects: Project[] = [
     },
   },
   {
-    id: 12,
     technology: 'Angular 7',
     year: 2020,
     url: 'https://www.bv.com.br/seguro',
@@ -346,6 +333,11 @@ export const studyProjects: Project[] = [
     },
   },
 ];
+
+export const devProjects: Project[] = devProjectsWithouIds.map((item, index) => ({
+  ...item,
+  id: index,
+}));
 
 export const designProjects: Project[] = [
   {
