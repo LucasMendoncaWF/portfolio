@@ -27,13 +27,13 @@ export const educationsList: Education[] = [
     translations: {
       en: {
         institution: 'FIAP',
-        degree: 'Bachelor’s in Systems Analysis and Development',
+        degree: 'Systems Analysis and Development',
         startDate: '2019',
         endDate: '2021',
       },
       pt: {
         institution: 'FIAP',
-        degree: 'Bacharelado em Análise e Desenvolvimento de Sistemas',
+        degree: 'Análise e Desenvolvimento de Sistemas',
         startDate: '2019',
         endDate: '2021',
       },

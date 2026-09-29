@@ -31,7 +31,7 @@ export default function Description() {
         <Link
           aria-label="Curriculum"
           target="_blank"
-          href="https://drive.google.com/file/d/1X3teyZTN63KdHVESHHb_NMwxoAiYxhMV/view?usp=drive_link"
+          href="https://drive.google.com/drive/folders/1EsxRbrifOyWcHopTjM9MXRXaXEeoCZUK?usp=drive_link"
         >
           <div
             className="

@@ -17,43 +17,43 @@ export const experiencesWithouIds = [
     translations: {
       en: {
         title: 'Senior Front-End Developer',
-        company: 'Satalia',
+        company: 'VML / Satalia',
         location: 'Remote - United Kingdom',
         startDate: 'Jul 2025',
         endDate: 'Present',
         responsibilities:
-          'In the Delivery project, a delivery management system built with React and Java involving maps, routing, depots, and logistics, I developed new features, resolved a backlog of over 50 bugs, migrated end-to-end tests from Cypress to Playwright, and maintained the system. I also refactored parts of the codebase to address performance issues and improve code quality by applying best practices, while collaborating closely with backend and product teams to define and implement effective solutions.',
+          'I develop and maintain Satalia Delivery, an enterprise logistics platform used by clients including Tesco, DFS and Woolworths to manage delivery operations, maps, routes, depots and real-time tracking with React and TypeScript. I own an ongoing initiative to improve overall frontend code quality through refactoring, pattern standardization, performance improvements, pull-request reviews and technical decisions. I resolved a backlog of 50+ defects in roughly two months, and newly reported issues are typically investigated and resolved the same day. I also migrated E2E coverage from Cypress to Playwright across roughly 15 complex application pages, and build accessible, responsive features with REST APIs, Vitest and React Testing Library while collaborating with backend engineers and onboarding frontend developers and QA engineers.',
       },
       pt: {
         title: 'Desenvolvedor Front-End Sênior',
-        company: 'Satalia',
+        company: 'VML / Satalia',
         location: 'Remoto - Reino Unido',
         startDate: 'Jul 2025',
         endDate: 'Presente',
         responsibilities:
-          'No projeto Delivery, um sistema de gerenciamento de entregas desenvolvido com React e Java envolvendo mapas, rotas, depósitos e logística, desenvolvi novas funcionalidades, resolvi um backlog de mais de 50 bugs, migrei os testes end-to-end de Cypress para Playwright e realizei a manutenção do sistema. Também refatorei partes da aplicação para resolver problemas de performance e melhorar a qualidade do código aplicando boas práticas, além de colaborar diretamente com as equipes de backend e produto na definição e implementação das melhores soluções.',
+          'Desenvolvo e mantenho o Satalia Delivery, uma plataforma corporativa de logística usada por clientes como Tesco, DFS e Woolworths para gerenciar operações de entrega, mapas, rotas, depósitos e rastreamento em tempo real com React e TypeScript. Sou responsável por uma iniciativa contínua para melhorar a qualidade geral do front-end por meio de refatorações, padronização de padrões, melhorias de performance, pull-request reviews e decisões técnicas. Resolvi um backlog de mais de 50 defeitos em aproximadamente dois meses, e novos problemas reportados normalmente são investigados e resolvidos no mesmo dia. Também migrei a cobertura E2E de Cypress para Playwright em cerca de 15 páginas complexas da aplicação e desenvolvo funcionalidades acessíveis e responsivas com REST APIs, Vitest e React Testing Library, colaborando com engenheiros de backend e apoiando o onboarding de desenvolvedores front-end e profissionais de QA.',
       },
     },
   },
   {
     translations: {
       en: {
-        title: 'Full Stack Developer',
+        title: 'Founder and Full-Stack Developer',
         company: 'ToonFlip',
-        location: 'Remote',
+        location: 'Remote - Brazil',
         startDate: 'Feb 2025',
         endDate: 'Jun 2026',
         responsibilities:
-          'I designed and developed ToonFlip, a subscription-based comic and animation platform with support for 9 languages. I built the mobile app with React Native, including a custom cinematic comic reader powered by a reusable C++ engine shared across React Native and React environments. I also developed the complete web ecosystem, including the user portal, creator portal, admin portal, and a cinematic editor for creating guided reading experiences. On the backend, I worked with C#, .NET, and PostgreSQL to handle authentication, subscriptions, content management, and communication across the platform. I implemented rate limiting, JWT authentication, AVIF image optimization, performance and security improvements, as well as AI-assisted translation for localization and global content distribution.',
+          'I designed and built an end-to-end comics and animation ecosystem supporting 9 languages, with React and TypeScript web apps, an Android app in React Native, a management portal and a .NET/PostgreSQL backend. I architected a reusable C++/bgfx cinematic viewer shared across web and mobile to prevent platform drift and duplicated logic, with offline playback, in-session language switching and accessibility controls such as balloon-size adjustment. I also built a shared SDK for reusable UI components, interfaces, API contracts and URLs across the consumer web app, management portal and mobile app. I implemented personalized content discovery, social and art feeds, notifications, profile customization, digital collectibles and physical/digital storefronts, and established unit and E2E testing, linting, responsive design, caching and performance practices across the ecosystem.',
       },
       pt: {
-        title: 'Desenvolvedor Full Stack',
+        title: 'Fundador e Desenvolvedor Full Stack',
         company: 'ToonFlip',
-        location: 'Remoto',
+        location: 'Remoto - Brasil',
         startDate: 'Fev 2025',
         endDate: 'Jun 2026',
         responsibilities:
-          'Projetei e desenvolvi a ToonFlip, uma plataforma de assinatura para quadrinhos e animações com suporte a 9 idiomas. Desenvolvi o aplicativo mobile com React Native, incluindo um leitor cinematográfico de quadrinhos personalizado, baseado em uma engine C++ reutilizável entre os ambientes React Native e React. Também desenvolvi todo o ecossistema web, incluindo o portal do usuário, portal de criadores, painel administrativo e um editor cinematográfico para criação de experiências de leitura guiada. No backend, trabalhei com C#, .NET e PostgreSQL para implementar autenticação, assinaturas, gerenciamento de conteúdo e comunicação entre os serviços da plataforma. Implementei rate limiting, autenticação JWT, otimização de imagens em AVIF, melhorias de performance e segurança, além de tradução assistida por IA para localização e distribuição global de conteúdo.',
+          'Projetei e desenvolvi um ecossistema completo de quadrinhos e animações com suporte a 9 idiomas, incluindo aplicações web em React e TypeScript, um aplicativo Android em React Native, um portal de gerenciamento e um backend em .NET/PostgreSQL. Arquitetei um leitor cinematográfico reutilizável em C++/bgfx compartilhado entre web e mobile para evitar divergência entre plataformas e duplicação de lógica, com reprodução offline, troca de idioma durante a sessão e controles de acessibilidade, como ajuste do tamanho dos balões. Também criei um SDK compartilhado para componentes de UI, interfaces, contratos de API e URLs reutilizados entre a aplicação web, o portal de gerenciamento e o aplicativo mobile. Implementei descoberta personalizada de conteúdo, feeds sociais e de arte, notificações, personalização de perfil, colecionáveis digitais e lojas físicas/digitais, além de estabelecer testes unitários e E2E, linting, design responsivo, cache e práticas de performance em todo o ecossistema.',
       },
     },
   },
@@ -66,7 +66,7 @@ export const experiencesWithouIds = [
         startDate: 'Jan 2023',
         endDate: 'Jul 2025',
         responsibilities:
-          'I built the Coaching Dashboard for Anytime Fitness (SaaS) using React with TypeScript, developed reusable custom components adopted across the website, delivered new features weekly, solved all bugs assigned to me quickly and maintained the “Bar Method” website built on WordPress.',
+          'I built and maintained the Anytime Fitness Coaching Dashboard with React and TypeScript, supporting coach-facing workflows within a global fitness brand. I implemented complex real-time chat and communication workflows with WebSockets and REST APIs, reusable components and Chart.js dashboards for coach and member data. I met directly with coaches to investigate bugs and evaluate product improvements, translating user feedback into technical solutions while contributing to solution design and pull-request reviews. I also applied React Query caching, accessibility, responsive and cross-browser practices, and performance improvements while working with CI/CD, Docker and AWS in a distributed English-speaking team.',
       },
       pt: {
         title: 'Desenvolvedor Front-End Sênior',
@@ -75,7 +75,7 @@ export const experiencesWithouIds = [
         startDate: 'Jan 2023',
         endDate: 'Jul 2025',
         responsibilities:
-          'Criei o Painel de Coaching para Anytime Fitness (SaaS) usando React com TypeScript, desenvolvi componentes personalizados reutilizáveis ​​adotados em todo o site, entreguei novos recursos semanalmente, resolvi todos os bugs atribuídos a mim rapidamente e mantive o site “Bar Method” criado no WordPress.',
+          'Desenvolvi e mantive o Coaching Dashboard da Anytime Fitness com React e TypeScript, dando suporte aos fluxos de trabalho dos coaches de uma marca global de fitness. Implementei fluxos complexos de chat e comunicação em tempo real com WebSockets e REST APIs, componentes reutilizáveis e dashboards em Chart.js para dados de coaches e membros. Trabalhei diretamente com coaches para investigar bugs e avaliar melhorias de produto, transformando feedback de usuários em soluções técnicas e contribuindo para o desenho de soluções e pull-request reviews. Também apliquei cache com React Query, práticas de acessibilidade, responsividade e compatibilidade entre navegadores, além de melhorias de performance, trabalhando com CI/CD, Docker e AWS em uma equipe distribuída que se comunicava em inglês.',
       },
     },
   },
@@ -84,33 +84,33 @@ export const experiencesWithouIds = [
       en: {
         title: 'Front-End Developer',
         company: 'Jurema',
-        location: 'Brazil',
+        location: 'Remote - Brazil',
         startDate: 'Jan 2020',
         endDate: 'Dec 2022',
         responsibilities:
-          'I managed front-end development in collaboration with design, product and Back-End teams to deliver websites for clients such as banks, government, and e-commerce websites, with React and Angular. I had many opportunities to mentor junior developers and to use other technologies in different projects, such as Electron, Next.js, GraphQL, AWS, Vue.JS, Tailwind CSS, Node.js, C#, .Net and MySQL.',
+          'I delivered React, TypeScript and Angular applications for clients including Banco BV and the Government of São Paulo, integrating REST APIs and meeting accessibility and client-specific compliance requirements. I built a JSON-driven dynamic form engine for Sampa Rural, allowing forms to be generated from configuration instead of implementing each form separately. I also contributed to the large Banco BV Na Pista platform and other banking and e-commerce products, including dashboards and data visualizations with Chart.js. I reviewed pull requests, pair-programmed and delivered short technical sessions to junior developers while contributing to architecture and troubleshooting.',
       },
       pt: {
-        title: 'Desenvolvedor Front-End Pleno',
+        title: 'Desenvolvedor Front-End',
         company: 'Jurema',
-        location: 'Brasil',
+        location: 'Remoto - Brasil',
         startDate: 'Jan 2020',
         endDate: 'Dez 2022',
         responsibilities:
-          'Gerenciei o desenvolvimento front-end em colaboração com as equipes de design, produto e back-end para entregar sites para clientes como bancos, governo e sites de e-commerce, usando React e Angular. Tive muitas oportunidades de orientar desenvolvedores juniores e usar outras tecnologias em diferentes projetos, como Electron, Next.js, GraphQL, AWS, Vue.JS, Tailwind CSS, Node.js, C#, .Net e MySQL.',
+          'Entreguei aplicações em React, TypeScript e Angular para clientes como Banco BV e Prefeitura de São Paulo, integrando REST APIs e atendendo requisitos de acessibilidade e conformidade específicos de cada cliente. Criei para o Sampa Rural um mecanismo de formulários dinâmicos orientado por JSON, permitindo gerar formulários a partir de configuração em vez de implementar cada um separadamente. Também contribuí para a grande plataforma Na Pista do Banco BV e outros produtos bancários e de e-commerce, incluindo dashboards e visualizações de dados com Chart.js. Realizei pull-request reviews, pair programming e pequenas sessões técnicas para desenvolvedores juniores, além de contribuir com arquitetura e troubleshooting.',
       },
     },
   },
   {
     translations: {
       en: {
-        title: 'Full Stack Developer',
+        title: 'Full-Stack Developer',
         company: 'Newton Marketing',
         location: 'Brazil',
         startDate: 'Apr 2017',
         endDate: 'Dec 2019',
         responsibilities:
-          'I created and maintained responsive web platforms for e-commerce, healthcare, and institutional websites, improving user engagement and SEO performance. The main projects were on WordPress, but I had opportunities to work with other technologies such as React, Angular, Vue.JS, React Native, MySQL, GraphQL, MongoDB and Node.js. I also developed intranet systems for clients like Hershey’s, brazilian banks, and a mining company using AngularJS and SharePoint, improving internal organization and data management.',
+          "I built responsive web products, internal systems and application prototypes for clients including Hershey's, Emccamp, Omint Seguros and Talento Engenharia using JavaScript frameworks, Node.js and MySQL. I developed systems that automated internal workflows and improved technical-team operations, alongside e-commerce, healthcare, institutional and SharePoint/AngularJS solutions.",
       },
       pt: {
         title: 'Desenvolvedor Full Stack',
@@ -119,29 +119,29 @@ export const experiencesWithouIds = [
         startDate: 'Abr 2017',
         endDate: 'Dez 2019',
         responsibilities:
-          'Criei e mantive plataformas web responsivas para sites de e-commerce, saúde e institucionais, melhorando o engajamento do usuário e o desempenho de SEO. Os principais projetos foram em WordPress, mas tive oportunidades de trabalhar com outras tecnologias, como React, Angular, Vue.JS, React Native, MySQL, GraphQL, MongoDB e Node.js. Também desenvolvi sistemas de intranet para clientes como Hersheys, bancos brasileiros e uma mineradora, utilizando AngularJS e SharePoint, aprimorando a organização interna e o gerenciamento de dados.',
+          "Desenvolvi produtos web responsivos, sistemas internos e protótipos de aplicações para clientes como Hershey's, Emccamp, Omint Seguros e Talento Engenharia usando frameworks JavaScript, Node.js e MySQL. Também desenvolvi sistemas que automatizaram fluxos internos e melhoraram a operação das equipes técnicas, além de soluções de e-commerce, saúde, sites institucionais e projetos em SharePoint/AngularJS.",
       },
     },
   },
   {
     translations: {
       en: {
-        title: 'Freelance Projects',
-        company: 'Various Clients',
+        title: 'Freelance Developer',
+        company: 'Selected Projects',
         location: 'Global',
         startDate: 'Oct 2020',
-        endDate: 'Present',
+        endDate: 'Dec 2022',
         responsibilities:
-          'Alamanda (React and Node.JS), BV Bank (Angular 14), Sony (HTML, CSS and JS) and Luvieh (Shopify)',
+          'I delivered selected freelance projects including the Alamanda React/TypeScript/Node.js website, Banco BV insurance products in Angular 14, Sony web pages and Shopify storefront work for Luvieh.',
       },
       pt: {
-        title: 'Projetos Freelance',
-        company: 'Diversos Clientes',
+        title: 'Desenvolvedor Freelance',
+        company: 'Projetos Selecionados',
         location: 'Global',
         startDate: 'Out 2020',
-        endDate: 'Presente',
+        endDate: 'Dez 2022',
         responsibilities:
-          'Alamanda (React and Node.JS), BV Bank (Angular 14), Sony (HTML, CSS and JS) and Luvieh (Shopify)',
+          'Entreguei projetos freelance selecionados, incluindo o site Alamanda em React/TypeScript/Node.js, produtos de seguros do Banco BV em Angular 14, páginas web para a Sony e trabalhos em lojas Shopify para a Luvieh.',
       },
     },
   },

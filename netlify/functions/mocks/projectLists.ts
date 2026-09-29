@@ -15,7 +15,7 @@ export interface Project {
 
 export const devProjectsWithouIds = [
   {
-    technology: 'React',
+    technology: 'React and TypeScript',
     year: 2026,
     isCurrent: true,
     image: '/images/satalia.webp',
@@ -23,30 +23,30 @@ export const devProjectsWithouIds = [
       en: {
         name: 'Satalia',
         description:
-          'Developed new features, turned a list of 50 bugs (that accumulated since 2021) to 0, maintained and refacturated the code',
+          'Develop and maintain Satalia Delivery, an enterprise logistics platform for delivery operations, maps, routes, depots and real-time tracking. Resolved a backlog of 50+ defects in roughly two months, migrated E2E coverage from Cypress to Playwright, and contribute to frontend code quality through refactoring, standards, code reviews and performance improvements.',
       },
       pt: {
         name: 'Satalia',
         description:
-          'Desenvolvi novas funcionalidades e fiz a manutenção, reduzi uma lista de bugs que se acumulou desde 2021 de um total de 50, para 0. Realizei refatoração de codigo e melhorias.',
+          'Desenvolvo e mantenho o Satalia Delivery, uma plataforma corporativa de logística para operações de entrega, mapas, rotas, depósitos e rastreamento em tempo real. Resolvi um backlog de mais de 50 defeitos em aproximadamente dois meses, migrei a cobertura E2E de Cypress para Playwright e contribuo para a qualidade do front-end por meio de refatorações, padronização, code reviews e melhorias de performance.',
       },
     },
   },
   {
-    technology: 'React',
+    technology: 'React and TypeScript',
     year: 2025,
     url: 'https://vimeo.com/1074964819/672ee796f2',
     image: '/images/project-anytime.webp',
     translations: {
       en: {
-        name: 'AnytimeFitness',
+        name: 'Anytime Fitness',
         description:
-          'Developed the second version of the website and did the maintenance, collaborating with the design and product teams.',
+          'Built and maintained the Coaching Dashboard with React and TypeScript, including real-time communication with WebSockets and REST APIs, reusable components, Chart.js dashboards, React Query caching, accessibility and performance improvements.',
       },
       pt: {
-        name: 'AnytimeFitness',
+        name: 'Anytime Fitness',
         description:
-          'Desenvolvi novas funcionalidades e fiz a manutenção, colaborando com os times de design e produto.',
+          'Desenvolvi e mantive o Coaching Dashboard com React e TypeScript, incluindo comunicação em tempo real com WebSockets e REST APIs, componentes reutilizáveis, dashboards em Chart.js, cache com React Query, acessibilidade e melhorias de performance.',
       },
     },
   },
@@ -75,12 +75,12 @@ export const devProjectsWithouIds = [
       en: {
         name: 'SampaRural',
         description:
-          'Developed the website from scratch, creating pages, features, API integrations and a form generator.',
+          'Built a JSON-driven dynamic form engine and contributed to the Sampa Rural application with Angular, REST API integrations and accessibility requirements.',
       },
       pt: {
         name: 'SampaRural',
         description:
-          'Desenvolvimento completo do site com criação de páginas, funcionalidades, integrações de API e formulários dinâmicos.',
+          'Criei um mecanismo de formulários dinâmicos orientado por JSON e contribuí para a aplicação Sampa Rural com Angular, integrações REST API e requisitos de acessibilidade.',
       },
     },
   },
@@ -93,17 +93,17 @@ export const devProjectsWithouIds = [
       en: {
         name: 'Na Pista',
         description:
-          'Developed new features and did the maintenance of the webiste, fixed bugs and implemented analytics.',
+          'Contributed to the Banco BV Na Pista platform with Angular, developing features, integrating APIs, fixing bugs and supporting dashboards and data visualization.',
       },
       pt: {
         name: 'Na Pista',
         description:
-          'Desenvolvi novas funcionalidades, fiz a manutenção do site, corrigi bugs e implementei o analytics.',
+          'Contribuí para a plataforma Na Pista do Banco BV com Angular, desenvolvendo funcionalidades, integrando APIs, corrigindo bugs e apoiando dashboards e visualizações de dados.',
       },
     },
   },
   {
-    technology: 'React And NestJS',
+    technology: 'React, TypeScript and Node.js',
     year: 2022,
     url: 'https://vimeo.com/778621074',
     image: '/images/project-alamanda.webp',
@@ -111,12 +111,12 @@ export const devProjectsWithouIds = [
       en: {
         name: 'Alamanda',
         description:
-          'E-commerce with admin panel, client area and analytics, designed and developed from scratch [Front-End, Back-End and MySQL].',
+          'Freelance project designed and developed end to end with React, TypeScript and Node.js, including the website, administrative features and backend integration.',
       },
       pt: {
         name: 'Alamanda',
         description:
-          'E-commerce com painel administrativo, desenhado e desenvolvido do zero. Fiz tanto o Front-End quanto o Back-End',
+          'Projeto freelance projetado e desenvolvido de ponta a ponta com React, TypeScript e Node.js, incluindo o site, funcionalidades administrativas e integração com o backend.',
       },
     },
   },
@@ -230,12 +230,13 @@ export const devProjectsWithouIds = [
     translations: {
       en: {
         name: 'Banco BV',
-        description: 'Developed pages to show the products for a Health Insurance Company.',
+        description:
+          'Developed insurance product pages for Banco BV with Angular and API integrations.',
       },
       pt: {
         name: 'Banco BV',
         description:
-          'Desenvolvimento de páginas para apresentação de produtos do Banco Votorantim.',
+          'Desenvolvi páginas de produtos de seguros para o Banco BV com Angular e integrações de API.',
       },
     },
   },
