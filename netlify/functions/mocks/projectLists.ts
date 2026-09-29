@@ -15,6 +15,23 @@ export interface Project {
 
 export const devProjectsWithouIds = [
   {
+    technology: 'React (TypeScript), React Native, C++ and C# (.NET)',
+    year: 2026,
+    image: '/images/toonflip.avif',
+    translations: {
+      en: {
+        name: 'ToonFlip',
+        description:
+          'Designed and built an end-to-end comics and animation platform supporting 9 languages, with React/TypeScript web apps, a React Native Android app, a management portal and a .NET/PostgreSQL backend. Architected a reusable C++/bgfx cinematic viewer shared across web and mobile, with offline playback, in-session language switching and accessibility controls. Also built a shared SDK and features including personalized content discovery, social interactions, notifications, digital collectibles and physical/digital storefronts.',
+      },
+      pt: {
+        name: 'ToonFlip',
+        description:
+          'Projetei e desenvolvi uma plataforma completa de quadrinhos e animações com suporte a 9 idiomas, incluindo aplicações web em React/TypeScript, aplicativo Android em React Native, portal de gerenciamento e backend em .NET/PostgreSQL. Arquitetuei um viewer cinematográfico reutilizável em C++/bgfx compartilhado entre web e mobile, com reprodução offline, troca de idioma durante a leitura e controles de acessibilidade. Também desenvolvi um SDK compartilhado e recursos como descoberta personalizada de conteúdo, interações sociais, notificações, colecionáveis digitais e lojas de produtos físicos e digitais.',
+      },
+    },
+  },
+  {
     technology: 'React and TypeScript',
     year: 2026,
     isCurrent: true,

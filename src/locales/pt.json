@@ -18,8 +18,6 @@
   "education": "Educação",
   "downloadCV": "Baixe meu currículo",
   "errorSkills": "Um erro ocorreu ao tentar buscar as habilidades",
-  "codeLanguages": "Linguagens",
-  "frameworksAndLibs": "FrameWorks/Libs",
   "testingTools": "Ferramentas de Teste",
   "otherTools": "Outras Ferramentas",
   "certifications": "Certificados",
@@ -30,5 +28,9 @@
   "formMessage": "Mensagem",
   "contactError": "Um erro ocorreu ao enviar a mensagem, por favor, tente novamente.",
   "contactSuccess": "Mensagem enviada! Vou te responder em breve.",
-  "current": "Atual"
+  "current": "Atual",
+  "databases": "Banco de dados",
+  "IA": "I.A.",
+  "frontend": "Front-end",
+  "backend": "Back-end"
 }

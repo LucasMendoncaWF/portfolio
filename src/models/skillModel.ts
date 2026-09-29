@@ -4,8 +4,10 @@ export interface Skill {
 }
 
 export interface SkillsResponse {
-  languages: Skill[];
-  frameworks: Skill[];
+  frontend: Skill[];
+  backend: Skill[];
+  databases: Skill[];
+  IA: Skill[];
   testingTools: Skill[];
   otherTools: Skill[];
 }

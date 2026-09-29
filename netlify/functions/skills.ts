@@ -1,4 +1,4 @@
-import { frameworks, languages, otherTools, testingTools } from './mocks/techSkills';
+import { databases, frontend, backend, IA, otherTools, testingTools } from './mocks/techSkills';
 
 exports.handler = async function () {
   return {
@@ -7,9 +7,11 @@ exports.handler = async function () {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      languages,
-      frameworks,
+      frontend,
+      backend,
       testingTools,
+      databases,
+      IA,
       otherTools,
     }),
   };

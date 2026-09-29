@@ -20,10 +20,12 @@ export default function Skills() {
       {loading && <Loader invert />}
       {!loading && !error && (
         <div className="w-full pb-[50px]">
-          <SkillList index={0} skills={data.languages} skillTitle={t('codeLanguages')} />
-          <SkillList index={1} skills={data.frameworks} skillTitle={t('frameworksAndLibs')} />
-          <SkillList index={2} skills={data.testingTools} skillTitle={t('testingTools')} />
-          <SkillList index={3} skills={data.otherTools} skillTitle={t('otherTools')} />
+          <SkillList index={0} skills={data.frontend} skillTitle={t('frontend')} />
+          <SkillList index={1} skills={data.backend} skillTitle={t('backend')} />
+          <SkillList index={2} skills={data.IA} skillTitle={t('ia')} />
+          <SkillList index={3} skills={data.testingTools} skillTitle={t('testingTools')} />
+          <SkillList index={4} skills={data.testingTools} skillTitle={t('databases')} />
+          <SkillList index={5} skills={data.otherTools} skillTitle={t('otherTools')} />
         </div>
       )}
     </div>
