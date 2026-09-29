@@ -29,18 +29,19 @@ export const frameworks: Skills[] = [
 
 export const testingTools: Skills[] = [
   { name: 'Playwright', level: 5 },
-  { name: 'Cypress', level: 4 },
-  { name: 'Vitest', level: 4 },
-  { name: 'React Testing Library', level: 4 },
+  { name: 'Cypress', level: 5 },
+  { name: 'Vitest', level: 5 },
+  { name: 'React Testing Library', level: 5 },
   { name: 'Jest', level: 5 },
 ];
 
 export const otherTools: Skills[] = [
   { name: 'Node.js', level: 3 },
   { name: 'REST / JSON APIs', level: 5 },
+  { name: 'MongoDB', level: 3 },
   { name: 'GraphQL', level: 5 },
   { name: 'WebSockets', level: 4 },
-  { name: 'PostgreSQL', level: 5 },
+  { name: 'PostgreSQL', level: 4 },
   { name: 'MySQL', level: 4 },
   { name: 'Redis', level: 4 },
   { name: 'Vite', level: 4 },
@@ -49,9 +50,9 @@ export const otherTools: Skills[] = [
   { name: 'CI/CD', level: 5 },
   { name: 'Docker', level: 4 },
   { name: 'AWS', level: 4 },
-  { name: 'Jira', level: 4 },
+  { name: 'Jira', level: 5 },
   { name: 'Figma', level: 4 },
-  { name: 'WCAG / ARIA', level: 4 },
+  { name: 'WCAG / ARIA', level: 5 },
   { name: 'Core Web Vitals', level: 4 },
   { name: 'Codex', level: 5 },
   { name: 'GPT', level: 5 },
