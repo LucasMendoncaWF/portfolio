@@ -9,7 +9,7 @@ export default function Carousel({ children }: { children: ReactNode[] }) {
   const scrollableContainerRef = useRef<HTMLDivElement | null>(null);
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [width, setWidth] = useState(1000);
-  const [height, setHeight] = useState(550);
+  const [height, setHeight] = useState(500);
   const [currentScroll, setCurrentScroll] = useState(0);
   const [scrolledPercent, setScrolledPercent] = useState(0);
   const [isRendered, setIsRendered] = useState(false);
@@ -26,7 +26,7 @@ export default function Carousel({ children }: { children: ReactNode[] }) {
 
     if (container.children[1]) {
       const childStyle = getComputedStyle(container.children[1]);
-      setHeight(container.children[1].clientHeight + (parseFloat(childStyle.padding) || 0) * 2);
+      setHeight((container.children[1].clientHeight - 30) + (parseFloat(childStyle.padding) || 0) * 2);
     }
   };
 

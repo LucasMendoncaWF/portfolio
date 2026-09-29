@@ -20,29 +20,37 @@ export default function Project({ project }: { project: ProjectModel }) {
           </div>
         </div>
         <Image className="w-full" width="320" height="150" src={project.image} alt={project.name} />
-        <div className="p-4 text-textColor border-t-4 border-borderColor">
-          <div className="overflow-auto h-32">
-            <div className="text-sm pb-1 font-bold">{project.name}</div>
-            <div className="text-[10px] pb-2 font-bold">{project.technology}</div>
-            <div className="text-xs text-justify opacity-80 dark:opacity-95">
-              {project.description}
+        <div className="p-4 text-textColor border-t-4 border-borderColor h-65 flex flex-col">
+          <div className="flex flex-col flex-1 min-h-0">
+            <div className="text-sm pb-1 font-bold">
+              {project.name}
+            </div>
+
+            <div className="text-[10px] pb-2 font-bold">
+              {project.technology}
+            </div>
+
+            <div className="text-xs opacity-80 dark:opacity-95 flex-1 overflow-auto whitespace-pre-line">
+              {project.description.replace(/\. /g, '.\n\n')}
             </div>
           </div>
+
           {project.url && (
             <Link aria-label="project" target="_blank" href={project.url}>
               <div
                 className="
-                text-textColor 
-                hover:scale-105 
-                hover:opacity-70 
-                transition  
-                w-45 
-                text-center 
-                text-[10px] 
-                border-4 
-                mt-5 
-                p-2 
-                bg-tertiary"
+                  text-textColor 
+                  hover:scale-105 
+                  hover:opacity-70 
+                  transition  
+                  w-45 
+                  text-center 
+                  text-[10px] 
+                  border-4 
+                  mt-5 
+                  p-2 
+                  bg-tertiary
+                "
               >
                 {t('accessProject')}
               </div>
