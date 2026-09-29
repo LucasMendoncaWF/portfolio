@@ -9,7 +9,7 @@ export const languages: Skills[] = [
   { name: 'HTML5', level: 5 },
   { name: 'CSS', level: 5 },
   { name: 'SCSS', level: 5 },
-  { name: 'C#', level: 3 },
+  { name: 'C#', level: 4 },
   { name: 'SQL', level: 4 },
 ];
 
