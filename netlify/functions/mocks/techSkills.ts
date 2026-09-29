@@ -11,6 +11,7 @@ export const languages: Skills[] = [
   { name: 'SCSS', level: 5 },
   { name: 'C#', level: 4 },
   { name: 'SQL', level: 4 },
+  { name: 'Node.js', level: 4 },
 ];
 
 export const frameworks: Skills[] = [
@@ -36,7 +37,6 @@ export const testingTools: Skills[] = [
 ];
 
 export const otherTools: Skills[] = [
-  { name: 'Node.js', level: 3 },
   { name: 'REST / JSON APIs', level: 5 },
   { name: 'MongoDB', level: 3 },
   { name: 'GraphQL', level: 5 },
