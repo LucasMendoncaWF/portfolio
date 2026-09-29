@@ -26,7 +26,7 @@ export default function Project({ project }: { project: ProjectModel }) {
               {project.name}
             </div>
 
-            <div className="text-[10px] pb-2 font-bold">
+            <div className="text-[10px] pb-2">
               {project.technology}
             </div>
 
